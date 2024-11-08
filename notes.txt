@@ -1,0 +1,18 @@
+to create a virtual environment
+1) we need to instal the virtual environment library
+ WIN 
+ py -m pip install virtualenv
+ MAC
+ python3 -m pip install virtualenv
+
+ 2)the create the virtual environment
+ 
+
+ 3) activate the virtual environment
+ WINDOWS 
+ venv\Scripts\activate
+ MAC
+ source venv/bin/activate
+
+ lets create a server inside of the virtual environment (using flask)
+ py -m pip install flask
